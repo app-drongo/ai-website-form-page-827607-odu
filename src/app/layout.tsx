@@ -3,7 +3,6 @@ import { Inter, Fira_Code } from "next/font/google";
 import "./globals.css";
 import Navigation from '@/components/layout/Navigation';
 import { ThemeToggle } from "@/components/theme-toggle";
-import Footer from '@/components/layout/Footer';
 
 // ⭐ Use generic variable names that never change
 const primaryFont = Inter({
@@ -51,7 +50,6 @@ export default function RootLayout({
         <div className="fixed bottom-4 right-4 z-50 md:bottom-6 md:right-6">
           <ThemeToggle />
         </div>
-              <Footer />
       </body>
     </html>
   );
